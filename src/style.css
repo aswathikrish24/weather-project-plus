@@ -1,6 +1,7 @@
 body {
   background-color: #f9f7fe;
   font-family: "Roboto", sans-serif;
+  color: #f9f7fe;
 }
 .container {
   display: block;
@@ -9,7 +10,7 @@ body {
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   padding: 50px;
   border-radius: 10px;
-  background-color: white;
+  background-color: black;
 }
 form {
   max-width: 600px;
@@ -35,16 +36,18 @@ main {
   display: flex;
   justify-content: space-between;
   padding: 30px 0;
-  line-height: 20px;
+  line-height: 30px;
 }
 .city {
   margin: 0;
+  font-size: 48px;
 }
 .weather {
   margin-top: 20px;
 }
 .weather-details {
-  font-size: medium;
+  padding-top: 5px;
+  font-size: 18px;
   color: grey;
 }
 .temperature-details {
@@ -64,4 +67,7 @@ main {
 .weather-unit {
   margin-top: -20px;
   font-size: 30px;
+}
+footer a {
+  color: lightseagreen;
 }

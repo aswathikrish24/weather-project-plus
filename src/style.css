@@ -11,3 +11,57 @@ body {
   border-radius: 10px;
   background-color: white;
 }
+form {
+  max-width: 600px;
+}
+.search-input {
+  width: 80%;
+  background-color: #f9f7fe;
+  font-size: medium;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: none;
+}
+.submit-button {
+  width: 19%;
+  background-color: lightseagreen;
+  color: white;
+  font-size: medium;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: none;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+  line-height: 20px;
+}
+.city {
+  margin: 0;
+}
+.weather {
+  margin-top: 20px;
+}
+.weather-details {
+  font-size: medium;
+  color: grey;
+}
+.temperature-details {
+  display: flex;
+  font-weight: bolder;
+  margin-top: 40px;
+}
+.weather-details strong {
+  color: #f65282;
+}
+.weather-temperature {
+  font-size: 88px;
+}
+.weather-icon {
+  font-size: 44px;
+}
+.weather-unit {
+  margin-top: -20px;
+  font-size: 30px;
+}

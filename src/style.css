@@ -6,17 +6,17 @@ body {
 .container {
   display: block;
   margin: 50px auto;
-  max-width: 700px;
+  max-width: 650px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   padding: 50px;
   border-radius: 10px;
   background-color: black;
 }
 form {
-  max-width: 600px;
+  max-width: 650px;
 }
 .search-input {
-  width: 80%;
+  width: 70%;
   background-color: #f9f7fe;
   font-size: medium;
   padding: 10px;
@@ -24,7 +24,7 @@ form {
   box-shadow: none;
 }
 .submit-button {
-  width: 19%;
+  width: 25%;
   background-color: lightseagreen;
   color: white;
   font-size: medium;

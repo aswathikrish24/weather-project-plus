@@ -74,18 +74,21 @@ main {
 }
 .weather-forecast {
   display: flex;
-  line-height: 35px;
+  line-height: 20px;
   margin-bottom: 30px;
   justify-content: space-around;
 }
 .forecast-day {
   text-align: center;
   font-size: 18px;
+  color: grey;
 }
 .forecast-icon {
+  max-width: 50%;
+  max-height: 50%;
+  display: block;
+  margin: 0 auto;
   text-align: center;
-  font-size: 40px;
-  padding: 10px;
 }
 .forecast-temperatures {
   display: flex;
@@ -94,6 +97,7 @@ main {
 }
 .forecast-temperature {
   padding: 5px;
+  color: #f65282;
 }
 footer {
   text-align: center;
